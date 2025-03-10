@@ -1,0 +1,17 @@
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+canvas {
+  width: 1600px;
+  max-width: 1600px;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Alternatif untuk menjaga aspek rasio */
+  display: block;
+}
